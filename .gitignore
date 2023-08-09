@@ -142,3 +142,6 @@ replay_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java
 .DS_Store
+/.gradle/
+.gradle
+build/tmp/compileJava/previous-compilation-data.bin

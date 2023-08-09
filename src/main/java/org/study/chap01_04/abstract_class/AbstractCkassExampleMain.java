@@ -13,7 +13,9 @@ public class AbstractCkassExampleMain {
         abstractClass.implementMethod();
         abstractClass.abstractMethod();
 
-//        AbstractClass extendedClass = new ExtendedClass();
+        AbstractClass extendedClass = new ExtendedClass();
+        extendedClass.implementMethod();
+        extendedClass.abstractMethod();
     }
 
 }
