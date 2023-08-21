@@ -5,6 +5,9 @@ public class Client {
         throw new CheckedException();
     }
 
+//    public void tryCatchcheckedExceptionMethod() {
+//            throw new CheckedException();
+// -> unhandledException 이 됨
     public void tryCatchcheckedExceptionMethod() {
         try {
             throw new CheckedException();
@@ -12,5 +15,4 @@ public class Client {
             e.printStackTrace();
         }
     }
-
 }
